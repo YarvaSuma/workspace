@@ -1,6 +1,6 @@
 def buildApp(){
     echo " Build Stage"
-  echo "Deploying version ${params.test}"
+  echo "Deploying version ${params.Test}"
     echo " Building version ${NEW_VERSION}"
 }
 def testApp(){
