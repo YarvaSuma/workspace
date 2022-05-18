@@ -8,7 +8,7 @@ pipeline{
     }
     environment{
         NEW_VERSION='1.4.0'
-        SEVER_CREDENTIALS=credentials('pipeline-cred')
+        SEVER_CREDENTIALS=credentials('github_cred')
     }
     stages{
         stage("Initialization"){
