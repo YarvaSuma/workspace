@@ -1,7 +1,7 @@
 def buildApp(){
     echo " Build Stage"
   echo "String parameter ${params.Test}"
-    echo " Building version ${NEW_VERSION}"
+    echo " Building version ${env.NEW_VERSION}"
 }
 def testApp(){
      echo " test Stage"
